@@ -94,7 +94,7 @@ def produce_file_not_found_error():
 # UnicodeEncodeError
 
 def produce_unicode_encode_error():
-    print(type(NULL))
+    print('£'.encode('ascii'))
 # produce_unicode_encode_error()
 
 # ModuleNotFoundError()
