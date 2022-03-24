@@ -101,7 +101,7 @@ produce_unicode_encode_error()
 ModuleNotFoundError()
 
 def produce_module_not_found_error():
-   import a
+   import b
 produce_module_not_found_error()
 
 # ImportError
